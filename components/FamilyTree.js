@@ -10,7 +10,9 @@ export default function FamilyTree({ data }) {
           <li key={member.id}>
             <Card className="node">
               <div>{member.name}</div>
-              <div className="meta">ID: {member.id} | Parent: {member.parentId ?? 'N/A'}</div>
+              <div className="meta">
+                ID: {member.id} | Parent: {member.parentId ?? 'N/A'}
+              </div>
             </Card>
             {children.length > 0 && <ul>{children}</ul>}
           </li>
