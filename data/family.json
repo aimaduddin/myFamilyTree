@@ -1,0 +1,8 @@
+{
+  "members": [
+    { "id": 1, "name": "Grandfather", "parentId": null },
+    { "id": 2, "name": "Father", "parentId": 1 },
+    { "id": 3, "name": "Uncle", "parentId": 1 },
+    { "id": 4, "name": "Me", "parentId": 2 }
+  ]
+}
