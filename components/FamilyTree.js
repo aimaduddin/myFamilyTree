@@ -8,7 +8,6 @@ export default function FamilyTree({ data }) {
         const children = buildTree(member.id)
         return (
           <li key={member.id}>
-            <Card className="node">{member.name}</Card>
             {children.length > 0 && <ul>{children}</ul>}
           </li>
         )
